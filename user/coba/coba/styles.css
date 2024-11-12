@@ -1,0 +1,42 @@
+body {
+    background-image: url('online.jpg');  /* Ganti dengan lokasi gambar kamu */
+    background-size: cover;               /* Gambar menutupi seluruh layar */
+    background-position: center;          /* Gambar ditempatkan di tengah */
+    background-repeat: no-repeat;         /* Gambar tidak diulang */
+    background-color: rgb(166, 214, 214);
+    height: 850px;
+    font-family: 'embed', sans-serif;
+}
+header {
+    background-color: #a000fd;
+    color: rgb(253, 253, 253);
+    padding: 10px 0;
+}
+header .container {
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    font-size: 2rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-left: 50px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
