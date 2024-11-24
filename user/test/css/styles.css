@@ -1,0 +1,91 @@
+header {
+    width: 100%;
+    height: 75px;
+    background-color: purple;
+    color: white;
+    justify-items: center;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+
+/* Styling untuk Program */
+.program {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.program h3 {
+    font-size: 2.2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.program p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.program ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.program ul li {
+    font-size: 1.1em;
+    color: #444;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.program ul li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Tombol CTA */
+.cta-btn {
+    display: inline-block;
+    background-color: #c000c0;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 4px solid rgb(0, 50, 187);
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #630077;
+}
+
+.container {
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: purple;
+    height: 75px;
+    width: 100%;
+    justify-items: center;
+    color: #f9f9f9;
+    border: 3px solid black;
+    border-radius: 10px;
+}
